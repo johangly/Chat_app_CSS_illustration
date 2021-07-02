@@ -1,0 +1,86 @@
+// COLORS
+// $GRADIENTS-COLORS
+$gradient-color-1: #e942ff;
+$gradient-color-2: #8838ff;
+// COLORS
+$color-1: hsl(276, 100%, 81%);
+$color-2: hsl(276, 55%, 52%);
+$color-3: hsl(271, 15%, 43%);
+$color-4: hsl(206, 6%, 79%);
+$color-5: hsl(271, 36%, 24%);
+$color-6: hsl(270, 7%, 64%);
+// SECONDARY COLORS
+$color-7: hsl(0, 0%, 100%);
+$color-8: hsl(270, 20%, 96%);
+$color-9: hsl(289, 100%, 72%);
+$color-10: hsl(275, 26%, 91%);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+@import '_phone.scss';
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    .principal-container {
+        width: 50%;
+        background-color: #fafafa;
+        display: inline-block;
+        height: 100vh;
+        position: relative;
+        .flag-div {
+            width: 65%;
+            background: rgb(144, 60, 255);
+            background: linear-gradient(37deg, rgba(144, 60, 255, 1) 0%, rgba(206, 65, 255, 1) 100%);
+            height: 88vh;
+            border-bottom-left-radius: 235px;
+            border-bottom-right-radius: 235px;
+            position: absolute;
+            top: 0;
+            right: -29;
+            left: -51px;
+            bottom: 0;
+        }
+        .phone-div {
+            overflow: hidden;
+            width: 255px;
+            height: 500.483px;
+            background-color: $color-8;
+            position: absolute;
+            top: 0;
+            right: 130px;
+            bottom: 0;
+            margin: auto 0;
+            border-radius: 40px;
+            -webkit-box-shadow: 5px 6px 15px -8px rgba(0, 0, 0, 0.9);
+            box-shadow: 5px 5px 26px -8px rgba(0, 0, 0, 0.3);
+        }
+    }
+    .secondary-container {
+        width: 50%;
+        display: inline-block;
+        background-color: #fafafa;
+        height: 100vh;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        .text-container {
+            width: 67%;
+            h2 {
+                font-size: 2em;
+                font-family: 'Rubik', sans-serif;
+                margin-bottom: 20px;
+                color: $color-5;
+            }
+            p {
+                font-family: 'Rubik', sans-serif;
+                line-height: 30px;
+                color: $color-6;
+            }
+        }
+    }
+}
