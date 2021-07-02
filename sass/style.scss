@@ -55,7 +55,7 @@ $color-10: hsl(275, 26%, 91%);
             right: 130px;
             bottom: 0;
             margin: auto 0;
-            border-radius: 40px;
+            border-radius: 25px;
             -webkit-box-shadow: 5px 6px 15px -8px rgba(0, 0, 0, 0.9);
             box-shadow: 5px 5px 26px -8px rgba(0, 0, 0, 0.3);
         }
@@ -84,3 +84,5 @@ $color-10: hsl(275, 26%, 91%);
         }
     }
 }
+
+@import '_responsive.scss';
