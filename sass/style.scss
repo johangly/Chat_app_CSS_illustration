@@ -23,7 +23,7 @@ $color-10: hsl(275, 26%, 91%);
 
 @import '_phone.scss';
 .container {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     .principal-container {

@@ -1,5 +1,7 @@
 @media only screen and (max-width: 783px) {
     .container {
+        width: 100vw;
+        height: 100vh;
         flex-direction: column;
         .principal-container {
             width: 100%;
